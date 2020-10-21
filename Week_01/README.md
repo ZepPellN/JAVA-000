@@ -23,7 +23,7 @@ import java.util.ArrayList;
 public class HelloClassLoader extends ClassLoader {
 
 	public static void main(String[] args) {
-		try {
+		try 
 			Class<?> clz = new HelloClassLoader().findClass("Hello");
 			Method hello = clz.getMethod("hello");
 			hello.setAccessible(true);
@@ -41,7 +41,7 @@ public class HelloClassLoader extends ClassLoader {
 
 	@Override
 	protected Class<?> findClass(String className) throws ClassNotFoundException{
-		String filePath = HelloClassLoader.class.getResource("/" + className + ".xclass").getPath();
+		String filePath = HelloClassLoader.class.getResource("/src" + className + ".xclass").getPath();
 		File file = new File(filePath);
 		int length = (int) file.length();
 		byte[] bytes = new byte[length];
