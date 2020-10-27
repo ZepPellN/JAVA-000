@@ -1,4 +1,4 @@
-package java0.nio01;
+package src.main.java.java0.nio01;
 
 import java.io.IOException;
 import java.io.PrintWriter;
