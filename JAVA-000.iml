@@ -6,6 +6,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Week_01/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week_01/classes" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/Week_02/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_02/netty-server" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_02/nio01" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_02/gc-log-analysis" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
